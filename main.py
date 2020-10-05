@@ -63,3 +63,13 @@ print(3 / 2)
 
 print(3 ** 2)
 
+courses = ['History', 'Math', 'Physics', 'CompSci']
+courses_2 = ['Art', 'Education']
+
+courses.extend(courses_2)
+courses.remove('Art')
+
+print(courses)
+
+
+
