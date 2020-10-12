@@ -64,12 +64,14 @@ print(3 / 2)
 print(3 ** 2)
 
 courses = ['History', 'Math', 'Physics', 'CompSci']
-courses_2 = ['Art', 'Education']
 
-courses.extend(courses_2)
-courses.remove('Art')
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+art_courses = {'History', 'Math', 'Art', 'Design'}
 
-print(courses)
+print(cs_courses.union(art_courses))
+
+student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
+print(student.get('age', 'Not Found'))
 
 
 
